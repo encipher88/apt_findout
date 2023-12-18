@@ -1,5 +1,5 @@
 ## Setup bot
-1) Download ZIP and extract it to a folder
+1) Git clone https://github.com/encipher88/apt_findout.git
 2) Install node.js: `https://nodejs.org/en/` (LTS)
 3) Paste your privatekeys with balance in `priv_key.txt` and wallet address in address.txt
 4) Open folder with the bot in `cmd`
@@ -12,6 +12,8 @@ npm install
 ```
 6) Start
 ```bash
+#To get some points
 node getp.js
+#To make vote after
 node index.js
 ```
