@@ -1,0 +1,18 @@
+{
+  "name": "aptos-findout",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "keywords": [
+    "aptos"
+  ],
+  "author": "tg: @enbit88",
+  "license": "ISC",
+  "dependencies": {
+    "aptos": "^1.13.3",
+    "console-stamp": "^3.1.2",
+    "fs": "^0.0.1-security",
+    "node-fetch": "^3.3.2"
+  }
+}
