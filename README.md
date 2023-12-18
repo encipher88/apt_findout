@@ -1,8 +1,11 @@
 ## Setup bot
-1) Git clone https://github.com/encipher88/apt_findout.git
-2) Install node.js: `https://nodejs.org/en/` (LTS)
-3) Paste your privatekeys with balance in `priv_key.txt` and wallet address in address.txt
-4) Open folder with the bot in `cmd`
+1)Install bot
+```bash
+   git clone https://github.com/encipher88/apt_findout.git
+```
+3) Install node.js: `https://nodejs.org/en/` (LTS)
+4) Paste your privatekeys with balance in `priv_key.txt` and wallet address in address.txt
+5) Open folder with the bot in `cmd`
 ```bash
 cd apt_findout
 ```
