@@ -1,6 +1,6 @@
 import fs from 'fs'
 // Target API endpoint URL
-const url = 'https://www.letsfindout.ai/api/trpc/points.tryGive?batch=1';
+const url = 'https://letsfindout.ai/api/trpc/points.tryGive?batch=1';
 
 // Headers for the HTTP request
 const getRandomValue = (array) => array[Math.floor(Math.random() * array.length)];
@@ -54,7 +54,7 @@ async function sendRequests() {
                     method: 'POST',
                     headers: headers,
                     body: JSON.stringify(requestData),
-                    referrer: 'https://www.letsfindout.ai/crowd',
+                    referrer: 'https://letsfindout.ai/crowd',
                     referrerPolicy: 'strict-origin-when-cross-origin',
                     mode: 'cors',
                     credentials: 'omit',
